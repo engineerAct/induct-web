@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.slider .btn {
+  margin-top: 20px;
+  padding: 0 50px;
+  border-radius: 2%;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact {
+  margin-top: 100px;
+}
+
+.brand-logo {
+  margin-top: 7px;
+}
+
+.menu-btn {
+  text-align: right;
+}
+
+.btrhme {
+  margin-top: 30px;
+}
+
+.slogan {
+  width: fit-content;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.section {
+  margin-top: 100px;
+}
