@@ -228,21 +228,25 @@
   <!-- contact form -->
   <section class="section container scrollspy" id="contact">
     <div class="col s12 l5 offset-l2">
-      <form>
+      <form  action="POST" data-netlify="true">
         <div class="input-field">
           <i class="material-icons prefix">person</i>
-          <input type="text" id="text" />
+          <input type="text" id="text" name="name" />
           <label for="text">Name</label>
         </div>
         <div class="input-field">
           <i class="material-icons prefix">email</i>
-          <input type="email" id="email" />
+          <input type="email" id="email" name="email" />
           <label for="email">Your Email</label>
         </div>
         <div class="input-field">
           <i class="material-icons prefix">message</i>
           <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
           <label for="message">Your Message</label>
+        </div>
+
+        <div class="field">
+          <div data-netlify-recaptcha="true" ></div>
         </div>
 
         <div class="input-field">
